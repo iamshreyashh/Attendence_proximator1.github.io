@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>att Calculator</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<style>
+    body {
+background-image: url(https://images.unsplash.com/photo-1637091064410-e14a811c6536?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+
+        }
+
+         .container {
+            background-color: #b1ddfaa9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .input-field {
+            margin-bottom: 10px;
+        }
+.heading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+.num{
+  border-radius: 6px;
+  border: none;
+  box-shadow: 2px 3px 2px grey;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Attendence Proximator</h1>
+      <h5 class="heading"> Check how much lectures you can bunk !!</h5>
+        <div class="input-field">
+            <label for="num1">Total Absent </label>
+            <input type="number" id="num1" class="num">
+        </div>
+      <div class="input-field">
+            <label for="num3">Total delegation</label>
+            <input type="number" id="num3" class="num">
+        </div>
+        <div class="input-field">
+            <label for="num2">Total Lectures</label>
+            <input type="number" id="num2" class="num">
+        </div>
+      
+        <button onclick="calculateSum()">Calculate</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function calculateSum() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var num3 = parseFloat(document.getElementById("num3").value);
+            var sum = 100-(((num1-num3)/num2)*100);
+            document.getElementById("result").innerHTML = "Your Attendence percentage is: " + sum+"%";
+        }
+    </script>
+</body>
+</html>
