@@ -13,4 +13,4 @@ Here's the link: https://iamshreyashh.github.io/Attendence_proximator1.github.io
 
 
 
-![viewsCount](https://img.shields.io/endpoint?url=https://counter10.p.rapidapi.com/?rapidapi-key=44fcc7f8f7mshacfcb91fc4190bfp189dddjsnaa696e83052d%26%26ID=https://iamshreyashh.github.io/Attendence_proximator1.github.io/%26%26COLOR=blue)
+![viewsCount](https://img.shields.io/endpoint?url=https://counter10.p.rapidapi.com/?rapidapi-key=44fcc7f8f7mshacfcb91fc4190bfp189dddjsnaa696e83052d%26%26ID=https://iamshreyashh.github.io/Attendence_proximator1.github.io/%26%26COLOR=success)
