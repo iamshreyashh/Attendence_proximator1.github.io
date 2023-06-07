@@ -6,3 +6,11 @@ P.S: in our college if att. is < 90 then ₹400/percent fine is imposed sadly:(
 Here's the link: https://iamshreyashh.github.io/Attendence_proximator1.github.io/
 
 #funtimes #webdev #code
+
+
+
+
+
+
+
+![viewsCount](https://img.shields.io/endpoint?url=https://counter10.p.rapidapi.com/?rapidapi-key=44fcc7f8f7mshacfcb91fc4190bfp189dddjsnaa696e83052d%26%26ID=https://iamshreyashh.github.io/Attendence_proximator1.github.io/)
